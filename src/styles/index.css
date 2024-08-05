@@ -10,25 +10,7 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-.todo-list {
-    position: relative; 
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-bottom: 5px;
-    border-radius: 4px;
-    
-  }
-  
-  .fa-trash {
-    display: none; 
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    color: red;
-  }
-  
-  .todo-list:hover .fa-trash {
-    display: block; 
-  }
+.btn.btn-sn.mt-2 {
+  background-color: black; /* Cambia el color de fondo a negro */
+  ; /* Opcional: Cambia el color del texto a blanco */
+}
